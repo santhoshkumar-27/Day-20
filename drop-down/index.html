@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Drop-Down</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="dropdown" data-dropdown>
+        <button class="link1" data-dropdown-button >Information</button>
+        <div class="dropdown-menu information-grid">
+          <div>
+            <div class="dropdown-heading">Types of vehicles</div>
+            <div class="dropdown-links">
+              <a href="#" class="link">SEDAN</a>
+              <a href="#" class="link">COUPE</a>
+              <a href="#" class="link">CONVERTIBALE</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Number of axles</div>
+            <div class="dropdown-links">
+              <a href="#" class="link">two-axles</a>
+              <a href="#" class="link">three-axles</a>
+              <a href="#" class="link">four-axles</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Usage based</div>
+            <div class="dropdown-links">
+              <a href="#" class="link">New-vehicles</a>
+              <a href="#" class="link">Used-vehicles</a>
+              <a href="#" class="link">old-vehciles</a>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-heading">Contact</div>
+            <div class="dropdown-links">
+              <a href="#" class="link">Twitter</a>
+              <a href="#" class="link">Facebook</a>
+              <a href="#" class="link">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="link1">Pricing</a>
+      <div class="dropdown" data-dropdown>
+        <button class="link1" data-dropdown-button>Login</button>
+        <div class="dropdown-menu">
+          <form class="login-page">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="xyz@xyz.com" required />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="**********"
+              required
+            />
+            <button type="submit">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
