@@ -7,8 +7,8 @@ document.addEventListener("click", e => {
         currentDropdown = e.target.closest('[data-dropdown]')
         currentDropdown.classList.toggle('active')
     }
-    document.querySelectorAll("[data-dropdown].active").forEach(dropdown =>{
+    document.querySelectorAll("[data-dropdown].active").forEach(dropdown => { 
         if (dropdown === currentDropdown)return
-        dropdown.classlist.remove('active')
+        dropdown.classList.remove('active')
     })
 })
